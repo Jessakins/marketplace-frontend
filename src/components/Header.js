@@ -3,13 +3,13 @@ import React from 'react'
 const Header = () => {
     return (
         <div>
-            <h1 class="text-black text-center border-b font-montserrat font-bold text-sm p-1 bg-yellow 
+            <h1 class="text-black text-center border-b font-montserrat font-bold text-lg p-1 bg-yellow 
                 border-gray">SUMMER SALE: 15% OFF SKIPJACK TUNA</h1>
 
-            <div class="border-b border-blue p-5">
+            <div class="border-b border-blue p-8">
                 <div class="flex">
-                    <img src="/img/logo_small.png" alt="trace_ai_logo" class= "w-25 h-12 ml-20"/>
-
+                    <img src="/img/logo_small.png" alt="trace_ai_logo" class= "w-27 h-12 ml-20"/>
+               
                     <button class="text-blue font-bold rounded-full border-blue border-2 hover:text-white 
                     hover:bg-blue hover:border-transparent font-montserrat text-lg px-4 py-1.5 ml-auto mr-10">Log In</button>
                     
