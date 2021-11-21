@@ -17,7 +17,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <h2 class= "text-blue font-montserrat font-bold text-lg ml-60 pt-5">Browse Products</h2>
+            <h2 class= "text-blue font-montserrat font-bold text-xl ml-60 pt-5">Browse Products</h2>
             <h3 class= "text-black text-xs font-montserrat ml-60">Home / Products</h3>
         </div>
     )

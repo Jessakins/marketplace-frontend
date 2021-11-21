@@ -1,5 +1,4 @@
 import React from "react";
-import Dropdown from "./components/Dropdown";
 import Header from './components/Header';
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
     
     <div className="App">
       <Header/>
-      <Dropdown/>
+      
     </div>
   );
 }
