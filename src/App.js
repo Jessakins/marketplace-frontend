@@ -1,5 +1,6 @@
 import React from "react";
 import Header from './components/Header';
+import Products from "./components/Products";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <h2 class= "text-blue font-montserrat font-bold text-xl ml-60 pt-5">Browse Products</h2>
         <h3 class= "text-black text-xs font-montserrat ml-60">Home / Products</h3>
 
-        <button class="text-black text-xs font-montserrat rounded-full border-blue border-2 px-7">
+        <button class="text-black text-xs font-montserrat rounded-full border-blue border-2">
           Search for products...
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
