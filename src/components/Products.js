@@ -2,30 +2,29 @@ import React from 'react'
 
 const Products = [
     {
-        id: 1, 
+        id: 1,
         name: 'Yellowfin Tuna',
-        price: 'P380.00/kilo',
-        thumb: "./img/fish1.jpg"
+        price: '₱380.00/kilo',
+        thumb: './img/1.jpg'
     },
     {
-        id: 2, 
+        id: 2,
         name: 'Skipjack Tuna',
-        price: 'P603.50/kilo',
-        thumb: "./img/fish2.jpg"
+        price: '₱603.50/kilo',
+        thumb: './img/2.jpg'
     },
     {
-        id: 3, 
+        id: 3,
         name: 'Yellowfin Tuna',
-        price: 'P380.00/kilo',
-        thumb: "./img/fish3.jpg"
+        price: '₱380.00/kilo',
+        thumb: './img/3.jpg'
     },
     {
-        id: 4, 
+        id: 4,
         name: 'Skipjack Tuna',
-        price: 'P710.00/kilo',
-        thumb: "./img/fish4.jpg"
-    },
-    
-];
+        price: '₱710.00/kilo',
+        thumb: './img/4.jpg'
+    }
+]
 
 export default Products;
