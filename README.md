@@ -8,6 +8,8 @@ Progress:
 - Created a grid list (product image)
 - Search button and browse products
 
+
+
 To-do List:
 - Fix dropdown buttons
 - Modal
