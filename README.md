@@ -1,12 +1,15 @@
-Marketplace Frontend
-Please go to MASTER Branch to see the source codes.
+# Marketplace Frontend
+
 
 Progress:
 
-Done creating Header
-With Trace.AI logo, Log In and Cart Button
-To-do List:
+- Done creating Header
+- With Trace.AI logo, Log In and Cart Button
+- Created a grid list (product image)
+- Search button and browse products
 
-Create a grid list (product image)
-Navigation
-Create Cart Page
+To-do List:
+- Fix dropdown buttons
+- Modal
+- Navigation
+- Create Cart Page
