@@ -1,39 +1,74 @@
-import React, { useState, useEffect } from "react"; 
+import React from 'react'
 
-function Products (){
-    
-
-    const [products, setProducts] = useState([
-        {
-            id: 1,
-            name: 'Yellowfin Tuna',
-            price: '₱380.00/kilo',
-            thumb: './img/1.jpg'
-        },
-        {
-            id: 2,
-            name: 'Skipjack Tuna',
-            price: '₱380.00/kilo',
-            thumb: './img/1.jpg'
-        },
-        {
-            id: 3,
-            name: 'Yellowfin Tuna',
-            price: '₱380.00/kilo',
-            thumb: './img/1.jpg'
-        },
-        {
-            id: 4,
-            name: 'Skipjack Tuna',
-            price: '₱380.00/kilo',
-            thumb: './img/1.jpg'
-        },
-    ]);
-
+export default function Products() {
     return (
-        <>
-         <div>{products.map(prod => <div key={prod.name}> {prod.name} </div>)}</div>
-        </>)
-}
+        <div class="font-montserrat grid grid-cols-4 justify-items-end ml-80 px-20 pb-20">
+            <div class="pb-5">
+                <img src="/img/1.jpg" alt="ytuna" class="w-32 h-32 sm:h-48 rounded-xl"/>
+                <div>
+                    <span class="font-bold text-blue">Yellowfin Tuna </span>
+                    <span class="block font-semibold text-xs">₱380.00/kilo</span>
+                </div>
+            </div>
 
-export default Products;
+            <div class="relative">
+                <img src="/img/2.jpg" alt="stuna" class="w-32 h-32 sm:h-48 rounded-xl"/>
+                <div>
+                    <span class="font-bold text-blue">Skipjack Tuna </span>
+                    <span class="block font-semibold text-xs">₱603.50/kilo</span>
+                </div>
+                <div class="bg-yellow text-black text-xs font-semibold rounded p-1 absolute top-3 ml-2 mt-2">
+                    <span> 15% off </span>
+                </div>
+            </div>
+
+            <div>
+                <img src="/img/3.jpg" alt="ytuna" class="w-32 h-32 sm:h-48 rounded-xl"/>
+                <div>
+                    <span class="font-bold text-blue">Yellowfin Tuna </span>
+                    <span class="block font-semibold text-xs">₱380.00/kilo</span>
+                </div>
+            </div>
+
+            <div>
+                <img src="/img/4.jpg" alt="stuna" class="w-32 h-32 sm:h-48 rounded-xl"/>
+                <div>
+                    <span class="font-bold text-blue">Skipjack Tuna </span>
+                    <span class="block font-semibold text-xs">₱710.00/kilo</span>
+                </div>
+            </div>
+
+            <div>
+                <img src="/img/1.jpg" alt="ytuna" class="w-32 h-32 sm:h-48 rounded-xl"/>
+                <div>
+                    <span class="font-bold text-blue">Yellowfin Tuna </span>
+                    <span class="block font-semibold text-xs">₱380.00/kilo</span>
+                </div>
+            </div>
+
+            <div>
+                <img src="/img/2.jpg" alt="stuna" class="w-32 h-32 sm:h-48 object-cover rounded-xl"/>
+                <div>
+                    <span class="font-bold text-blue">Skipjack Tuna </span>
+                    <span class="block font-semibold text-xs">₱710.00/kilo</span>
+                </div>
+            </div>
+
+            <div>
+                <img src="/img/3.jpg" alt="ytuna" class="w-32 h-32 sm:h-48 object-cover rounded-xl"/>
+                <div>
+                    <span class="font-bold text-blue">Yellowfin Tuna </span>
+                    <span class="block font-semibold text-xs">₱380.00/kilo</span>
+                </div>
+            </div>
+
+            <div>
+                <img src="/img/4.jpg" alt="stuna" class="w-32 h-32 sm:h-48 object-cover rounded-xl"/>
+                <div>
+                    <span class="font-bold text-blue text-sm">Skipjack Tuna </span>
+                    <span class="block font-semibold text-xs">₱710.00/kilo</span>
+                </div>
+            </div>
+        </div>
+    )
+}

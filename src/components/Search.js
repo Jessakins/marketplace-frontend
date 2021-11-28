@@ -2,13 +2,15 @@ import React from 'react'
 
 export default function Search() {
     return (
-        <div class="pt-3 flex justify-between">
+        <div class="pt-3 flex justify-between font-montserrat">
             <header>
-                <h2 class= "text-blue font-montserrat font-bold text-xl ml-60 pt-2">Browse Products</h2>
-                <h3 class= "text-black text-xs font-montserrat ml-60">Home / Products</h3>
+                <h2 class= "text-blue font-bold text-xl ml-60 pt-2">Browse Products</h2>
+                <h3 class= "text-black text-xs ml-60">Home /
+                    <span class= "text-blue text-xs font-semibold"> Products</span>
+                </h3>
             </header>
         
-            <div class="w-72 h-10 rounded-full flex justify-between items-center border border-blue font-montserrat
+            <div class="w-72 h-10 rounded-full flex items-center border border-blue font-montserrat
             text-xs text-black px-5 my-2 mr-60">
                 <input type="search" name="search" id="search" placeholder="Search for products..." class="w-full outline-none focus:outline-none active:outline-none font-semibold mr-50"/>
                 <button type="submit" class="ml-1 outline-none focus:outline-none active:outline-none">
