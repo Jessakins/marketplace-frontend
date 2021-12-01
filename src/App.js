@@ -9,8 +9,10 @@ function App() {
     <div className="App">
       <Header/>
       <Search/>
-      <Dropdowns/>
-      <Products/>
+      <div class="flex flex-row">
+        <Dropdowns/>
+        <Products/>
+      </div>
 
     </div>
   );

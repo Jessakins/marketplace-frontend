@@ -26,10 +26,10 @@ export default function Dropdowns() {
               </svg>
               <select class="border border-blue rounded-lg text-blue h-10 pl-5 pr-10 focus:outline-none appearance-none">
                 <option class= "text-semibold text-blue">Choose</option>
-                <option>Pampanga</option>
-                <option>Bataan</option>
-                <option>Laguna</option>
-                <option>Cavite</option>
+                <option>Nueva Ecija</option>
+                <option>Quezon City</option>
+                <option>Muntinlupa</option>
+                <option>Bacolod City</option>
               </select>
             </div>
 
