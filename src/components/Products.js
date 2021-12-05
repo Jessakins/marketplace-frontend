@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Products() {
     return (
-        <div class="font-montserrat grid grid-cols-4 gap-8 justify-items-end ml-10 mt-10 mr-28 px-10 pb-10">
+        <div class="font-montserrat grid grid-cols-4 gap-8 justify-items-end ml-16 mt-10 mr-28 pb-10">
             <div>
                 <img src="/img/1.jpg" alt="ytuna" class="w-32 h-30 sm:h-45 rounded-xl pb-1"/>
                 <div>

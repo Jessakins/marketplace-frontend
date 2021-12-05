@@ -3,8 +3,9 @@ import React from 'react'
 export default function Header () {
     return (
         <div>
-            <h1 class="text-black text-center border-b font-montserrat font-bold text-lg p-1 bg-yellow 
-                border-gray">SUMMER SALE: 15% OFF SKIPJACK TUNA</h1>
+            <h1 class="text-gray text-center border-b font-montserrat font-bold text-base p-1.5 bg-yellow
+                border-gray">SUMMER SALE: <span class="text-black font-bold">15% OFF SKIPJACK TUNA</span>
+            </h1>
 
             <div class="border-b border-blue p-5">
                 <div className="flex">
