@@ -17,7 +17,7 @@ export default function Products() {
                     <span class="font-bold text-blue">Skipjack Tuna </span>
                     <span class="block font-semibold text-xs text-gray">₱603.50/kilo</span>
                 </div>
-                <div class="bg-yellow text-black text-xs font-semibold rounded p-0.5 absolute top-0 ml-2 mb-4">
+                <div class="bg-yellow text-black text-xs font-bold rounded p-0.5 absolute -top-2 ml-2">
                     <span> 15% off </span>
                 </div>
             </div>

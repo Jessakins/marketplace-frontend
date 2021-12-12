@@ -13,7 +13,6 @@ function App() {
         <Dropdowns/>
         <Products/>
       </div>
-
     </div>
   );
 }
